@@ -6,6 +6,8 @@ https://guides.github.com/features/mastering-markdown/
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+
+Some inspiration can also be found here: https://raw.githubusercontent.com/dev-osrose/osIROSE-new/master/README.md
 -->
 
 ## Urgent task list
