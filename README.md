@@ -23,6 +23,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Make the limitation on the FPS working!
 - [ ] If right-click in the skill bar, open more details about the skill
 - [ ] Add the possibility to navigate inside menus with number (1 = option 1 etc)
 - [ ] Add better option to tp with the GM
