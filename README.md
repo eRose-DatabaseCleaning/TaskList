@@ -23,6 +23,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [x] Get more time to drop (multiplied by 5)
 - [ ] Enable moving a char with keyboard (but only the active window and while not in the chat)
 - [ ] Change drop formula to be more intuitive (see work of Laurenzzo)
 - [ ] Add more info and option when you Ctrl+RClick on a ally char.
@@ -32,7 +33,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
 - [ ] Prevent windows to be opened out of the screen when resolution changes
 - [ ] Fix the 2nd skill bar (numbers for bar one, and F keys for 2nd bar)
-- [ ] Make the limitation on the FPS working!
+- [x] Make the limitation on the FPS working! (but a bit dirty, have to find where the value of 1000 for get_rs()->min_framerate is coming...)
 - [ ] If right-click in the skill bar, open more details about the skill
 - [ ] Add the possibility to navigate inside menus with number (1 = option 1 etc)
 - [ ] Add better option to tp with the GM
@@ -47,7 +48,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Always drop no matter the level difference with the monster
 - [x] Drops should NOT always drop socket items
 - [x] Party buff also focus summons
-- [ ] The game is sometimes super slow
+- [ ] The game is sometimes super slow (semi-fixed with the FPS fix. Have to continue to investigate)
 
 ### STB (newest to oldest)
 - [ ] Remove unwanted messages (like the "promotion sale for the warehouse" or the messahe after the tutorial saying you just learned two skills... that you already have)
