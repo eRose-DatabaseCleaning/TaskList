@@ -23,6 +23,11 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Add more slots in inventory
+- [ ] Change max number of party member (temporary fix and then clan fix?)
+- [ ] Add GM command to change party level
+- [ ] Reduce zone where to click to enable the chat
+- [ ] Name change if a jewel is equipped? + bug "runit_in < num_runits" [zz_visible.cpp#1877]
 - [x] Get more time to drop (multiplied by 5)
 - [ ] Enable moving a char with keyboard (but only the active window and while not in the chat)
 - [ ] Change drop formula to be more intuitive (see work of Laurenzzo)
@@ -30,7 +35,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Change the right-click on ally to a Ctrl+right click to see some info.
 - [ ] Make the blue items just a stat like the refine stat. For the drops, add a new column inside the STB to say if this monster can drop blue items or not. ---> Next step is the craft of such item (new skill like refine)
 - [ ] Add an option to choose for constant or not rendering
-- [ ] Add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
+- [ ] Atfer implementation of auto-login add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
+- [ ] Implement auto-login
 - [ ] Prevent windows to be opened out of the screen when resolution changes
 - [ ] Fix the 2nd skill bar (numbers for bar one, and F keys for 2nd bar)
 - [x] Make the limitation on the FPS working! (but a bit dirty, have to find where the value of 1000 for get_rs()->min_framerate is coming...)
@@ -51,6 +57,9 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] The game is sometimes super slow (semi-fixed with the FPS fix. Have to continue to investigate)
 
 ### STB (newest to oldest)
+- [x] Add more sexy HP gauge bar
+- [x] Fix quest with engagement ring that you cannot complete after lvl 22
+- [x] Add spero's wooden chest and associated quest (we decided not to add it :-) )
 - [ ] Remove unwanted messages (like the "promotion sale for the warehouse" or the messahe after the tutorial saying you just learned two skills... that you already have)
 - [ ] Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files
 - [ ] When a npc speaks in the chat, the name is wrong (it takes the second column of the STB files)
