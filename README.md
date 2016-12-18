@@ -57,6 +57,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] The game is sometimes super slow (semi-fixed with the FPS fix. Have to continue to investigate)
 
 ### STB (newest to oldest)
+- [ ] Description of "gathering (stock piling?) in dealer skills is wrong-->to check and fix!
 - [x] Add more sexy HP gauge bar
 - [x] Fix quest with engagement ring that you cannot complete after lvl 22
 - [x] Add spero's wooden chest and associated quest (we decided not to add it :-) )
