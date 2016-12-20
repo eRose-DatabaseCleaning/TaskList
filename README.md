@@ -23,6 +23,9 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurent :-) )
+- [ ] Exit button on the char select view should send you to the account login page
+- [ ] When you click on a summon, don't run towards it (have to add a category to: OBJ_MOB, OBJ_NPC etc for summon. Then have to change the cursor (to be the same than when you select an avatar (search for CURSOR, here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/e56f146001a86aeaa2b1d20158b45da2b55eefc6/Client/System/CGameStateMain.cpp#L1212) and then change it here : SetTargetObject_Normal in JCommandState.cpp: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L956). An interesting function to be able to see hp of all char and to get inspiration: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L1049 
 - [ ] Add more slots in inventory
 - [ ] Change max number of party member (temporary fix and then clan fix?)
 - [ ] Add GM command to change party level
@@ -32,11 +35,11 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Enable moving a char with keyboard (but only the active window and while not in the chat)
 - [ ] Change drop formula to be more intuitive (see work of Laurenzzo)
 - [ ] Add more info and option when you Ctrl+RClick on a ally char.
-- [ ] Change the right-click on ally to a Ctrl+right click to see some info.
+- [x] Change the right-click on ally to a Ctrl+right click to see some info.
 - [ ] Make the blue items just a stat like the refine stat. For the drops, add a new column inside the STB to say if this monster can drop blue items or not. ---> Next step is the craft of such item (new skill like refine)
 - [ ] Add an option to choose for constant or not rendering
 - [ ] Atfer implementation of auto-login add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
-- [ ] Implement auto-login
+- [x] Implement auto-login (Login step:OK; Server step:OK; Char step: new task above)
 - [ ] Prevent windows to be opened out of the screen when resolution changes
 - [ ] Fix the 2nd skill bar (numbers for bar one, and F keys for 2nd bar)
 - [x] Make the limitation on the FPS working! (but a bit dirty, have to find where the value of 1000 for get_rs()->min_framerate is coming...)
