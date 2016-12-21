@@ -67,6 +67,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Remove isTaiwan and fix calculation to be a iRose like server
 
 ### STB (newest to oldest)
+- [ ] Fix the bridge in El Verloon above the turtles so we don't get stuck on it.
 - [ ] Description of "gathering (stock piling?) in dealer skills is wrong-->to check and fix!
 - [x] Add more sexy HP gauge bar
 - [x] Fix quest with engagement ring that you cannot complete after lvl 22
