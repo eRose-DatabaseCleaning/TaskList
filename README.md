@@ -23,6 +23,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Add a skill to tp to the clan house and a warp in the clan house to any zone (but have to unlock it first with specific quest for each zone (hard to get: money plus lot of power!)
 - [ ] continue action after some skills (ex: healing)
 - [ ] Make two chats: one big, one small that separates log and talks... This is maybe what is doing frarose (https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/it_mgr.cpp#L1186). You can find the chatbox here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/CChatBox.cpp
 - [x] Add a new shortcut to sit (Alt+Z)
