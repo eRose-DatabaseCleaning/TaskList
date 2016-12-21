@@ -15,7 +15,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 |     :---:    |     :---:      |     :---:     |
 | Sources - Client & Server       | MaxHP and MaxMP should be a variable sent in the packet from and to the server     | Numenor    |
 | Sources - Client     | HP fix - Computation is done from the Server side but also from Client side. We should make it match and make the server computation the priority      | Numenor      |
-| Sources - Client     | Add better option to tp with the GM       | Laurenzzo & Hugo      |
+| Sources - Client     | Add better option to tp with the GM       | Laurenzzo & Numenor      |
 | STB     | Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files. For example it works well with the Ruff AIP files. Should we put all AIP files from Ruff there then?       | Laurenzzo      |
 
 
@@ -23,11 +23,16 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
-- [ ] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurent :-) )
+- [ ] continue action after some skills (ex: healing)
+- [ ] Make two chats: one big, one small that separates log and talks... This is maybe what is doing frarose (https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/it_mgr.cpp#L1186). You can find the chatbox here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/CChatBox.cpp
+- [x] Add a new shortcut to sit (Alt+Z)
+- [ ] When you look at a new equipment it shows what you have equiped at the moment to compare
+- [x] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurenzzo :-) )
 - [ ] Exit button on the char select view should send you to the account login page
 - [ ] When you click on a summon, don't run towards it (have to add a category to: OBJ_MOB, OBJ_NPC etc for summon. Then have to change the cursor (to be the same than when you select an avatar (search for CURSOR, here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/e56f146001a86aeaa2b1d20158b45da2b55eefc6/Client/System/CGameStateMain.cpp#L1212) and then change it here : SetTargetObject_Normal in JCommandState.cpp: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L956). An interesting function to be able to see hp of all char and to get inspiration: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L1049 
 - [ ] Add more slots in inventory
-- [ ] Change max number of party member (temporary fix and then clan fix?)
+- [ ] Change max number of party member (a clan skill?): see here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/search?utf8=%E2%9C%93&q=MAX_PARTY_MEMBERS with the line we want here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Server/SHO_GS/SHO_GS_LIB/GS_PARTY.CPP#L609 
+- [x] Temporary fix to update party level by 2 (6 player at lvl 1, 7 at lvl >=5)... This needs to be improved, see point above!
 - [ ] Add GM command to change party level
 - [ ] Reduce zone where to click to enable the chat
 - [ ] Name change if a jewel is equipped? + bug "runit_in < num_runits" [zz_visible.cpp#1877]
@@ -44,7 +49,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Fix the 2nd skill bar (numbers for bar one, and F keys for 2nd bar)
 - [x] Make the limitation on the FPS working! (but a bit dirty, have to find where the value of 1000 for get_rs()->min_framerate is coming...)
 - [ ] If right-click in the skill bar, open more details about the skill
-- [ ] Add the possibility to navigate inside menus with number (1 = option 1 etc)
+- [x] Add the possibility to navigate inside menus with number (1 = option 1 etc) and therefore remove skill action when in dialog
 - [ ] Add better option to tp with the GM
 - [x] Add new GM commandes for apparaisal items
 - [x] Improve debug rendering (Alt+d in GM mode)
@@ -58,6 +63,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Drops should NOT always drop socket items
 - [x] Party buff also focus summons
 - [ ] The game is sometimes super slow (semi-fixed with the FPS fix. Have to continue to investigate)
+- [x] Force constant rendering + various shortcut bug fixes
+- [x] Remove isTaiwan and fix calculation to be a iRose like server
 
 ### STB (newest to oldest)
 - [ ] Description of "gathering (stock piling?) in dealer skills is wrong-->to check and fix!
