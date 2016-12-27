@@ -15,7 +15,6 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 |     :---:    |     :---:      |     :---:     |
 | Sources - Client & Server       | MaxHP and MaxMP should be a variable sent in the packet from and to the server     | Numenor    |
 | Sources - Client     | HP fix - Computation is done from the Server side but also from Client side. We should make it match and make the server computation the priority      | Numenor      |
-| Sources - Client     | Add better option to tp with the GM       | Laurenzzo & Numenor      |
 | STB     | Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files. For example it works well with the Ruff AIP files. Should we put all AIP files from Ruff there then?       | Laurenzzo      |
 
 
@@ -28,7 +27,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Make two chats: one big, one small that separates log and talks... This is maybe what is doing frarose (https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/it_mgr.cpp#L1186). You can find the chatbox here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/CChatBox.cpp
 - [x] Add a new shortcut to sit (Alt+Z)
 - [ ] When you look at a new equipment it shows what you have equiped at the moment to compare
-- [x] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurenzzo :-) )
+- [ ] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurenzzo :-) )
 - [ ] Exit button on the char select view should send you to the account login page
 - [ ] When you click on a summon, don't run towards it (have to add a category to: OBJ_MOB, OBJ_NPC etc for summon. Then have to change the cursor (to be the same than when you select an avatar (search for CURSOR, here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/e56f146001a86aeaa2b1d20158b45da2b55eefc6/Client/System/CGameStateMain.cpp#L1212) and then change it here : SetTargetObject_Normal in JCommandState.cpp: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L956). An interesting function to be able to see hp of all char and to get inspiration: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L1049 
 - [ ] Add more slots in inventory
@@ -47,11 +46,13 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Atfer implementation of auto-login add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
 - [x] Implement auto-login (Login step:OK; Server step:OK; Char step: new task above)
 - [ ] Prevent windows to be opened out of the screen when resolution changes
-- [ ] Fix the 2nd skill bar (numbers for bar one, and F keys for 2nd bar)
+- [x] New shortcut for skill bars "1 2 3..." for normal bar and F1 F2 etc for second bar. If in a dialog, then use Alt+1 2 3 instead (F1 F2 etc will always work). To switch bar: Ctrl+1 2 3 4 for the normal bar, and F9 F10 F11 F12 for the other one.
+- [x] Fix the memory for skill bars. For the moment, only page 1 of bar 1 is saved ! The rest is not and you have to put your skill by hand all the time...
+- [x] Not correct skins for skill bar (number doesn't show current page of the bar, shortcut are not correctly pictured) (see xml files and create and setID !)
 - [x] Make the limitation on the FPS working! (but a bit dirty, have to find where the value of 1000 for get_rs()->min_framerate is coming...)
-- [ ] If right-click in the skill bar, open more details about the skill
+- [x] If right-click in the skill bar, open more details about the skill
 - [x] Add the possibility to navigate inside menus with number (1 = option 1 etc) and therefore remove skill action when in dialog
-- [ ] Add better option to tp with the GM
+- [x] Add better option to tp with the GM
 - [x] Add new GM commandes for apparaisal items
 - [x] Improve debug rendering (Alt+d in GM mode)
 - [x] Change shortcut to switch 'visible name of drops' with only Atl+Gr (switch on AND off) + enable this option by default
@@ -68,6 +69,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Remove isTaiwan and fix calculation to be a iRose like server
 
 ### STB (newest to oldest)
+- [x] Fix 5-color-scales (you need 10, not 5!) in episode quest
+- [ ] Fix zombie quest (episode quest)
 - [ ] Fix the bridge in El Verloon above the turtles so we don't get stuck on it.
 - [ ] Description of "gathering (stock piling?) in dealer skills is wrong-->to check and fix!
 - [x] Add more sexy HP gauge bar
