@@ -22,13 +22,14 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [x] Remove the camera that starts turning when mouse reaches the edge
 - [ ] Add a skill to tp to the clan house and a warp in the clan house to any zone (but have to unlock it first with specific quest for each zone (hard to get: money plus lot of power!)
 - [ ] continue action after some skills (ex: healing)
 - [ ] Make two chats: one big, one small that separates log and talks... This is maybe what is doing frarose (https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/it_mgr.cpp#L1186). You can find the chatbox here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/CChatBox.cpp
 - [x] Add a new shortcut to sit (Alt+Z)
 - [ ] When you look at a new equipment it shows what you have equiped at the moment to compare
-- [ ] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurenzzo :-) )
-- [ ] Exit button on the char select view should send you to the account login page
+- [x] Add the last step to autologin: the char selection (then next step is the multiple launch, ask Laurenzzo :-) )~~
+- [ ] ~~To complicated for nothing, project aborded for the moment. Exit button on the char select view should send you to the account login page~~
 - [ ] When you click on a summon, don't run towards it (have to add a category to: OBJ_MOB, OBJ_NPC etc for summon. Then have to change the cursor (to be the same than when you select an avatar (search for CURSOR, here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/e56f146001a86aeaa2b1d20158b45da2b55eefc6/Client/System/CGameStateMain.cpp#L1212) and then change it here : SetTargetObject_Normal in JCommandState.cpp: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L956). An interesting function to be able to see hp of all char and to get inspiration: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/master/Client/JCommandState.cpp#L1049 
 - [ ] Add more slots in inventory
 - [ ] Change max number of party member (a clan skill?): see here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/search?utf8=%E2%9C%93&q=MAX_PARTY_MEMBERS with the line we want here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Server/SHO_GS/SHO_GS_LIB/GS_PARTY.CPP#L609 
