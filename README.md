@@ -22,6 +22,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Add clan skill for: party level
+- [ ] Add special lvl 30 skill: Arti==blue craft; Bourg==Party stockpiling ; Cleric==buff duration; have to think about the rest... 
 - [x] Add option to the launcher to set the initial position of the window
 - [x] Remove the camera that starts turning when mouse reaches the edge
 - [ ] Add a skill to tp to the clan house and a warp in the clan house to any zone (but have to unlock it first with specific quest for each zone (hard to get: money plus lot of power!)
