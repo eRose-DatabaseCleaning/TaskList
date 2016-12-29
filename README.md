@@ -73,6 +73,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Remove isTaiwan and fix calculation to be a iRose like server
 
 ### STB (newest to oldest)
+- [ ] About the level 30 job quest: Soldier==very long (have to kill aquas for hours with first hit). It's nice won't change it;Muse==easy and super nice reward!; Dealer==have to be smart but easy, let it that way; Hawker==impossible for the 2 first level. Need help for the last one. Have to change it, like 2 captains in 10 minutes. Or better-->do a speed challenge NOT depending on the spawn rate. --->So for this part, redo the quest for hawker.
 - [x] Fix 5-color-scales (you need 10, not 5!) in episode quest
 - [ ] Fix zombie quest (episode quest)
 - [ ] Fix the bridge in El Verloon above the turtles so we don't get stuck on it.
