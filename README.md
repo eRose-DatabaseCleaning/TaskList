@@ -22,6 +22,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [x] Add success rate when crafting (with update to show 100% if we have a success rate >=100%)
 - [ ] Add clan skill for: party level (bonus part) +6 production part + clan house
 - [ ] Add special lvl 35 skill: Arti==blue craft; Bourg==Party stockpiling ; Cleric==buff duration; Mage==summons don't loose health; Raider==Recover HP/MP when dodge (skill active only each XX seconds); Scout==bonus zuly (also for party); Knight==more focus by agro (especially when fighting someone). For example a auto-taunt every 10s you fight; Champ==if you don't have one piece of equipment it gives you a bonus/malus in def/atk (more atk, less def ^^)
 - [x] Add option to the launcher to set the initial position of the window
@@ -37,7 +38,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Add more slots in inventory
 - [ ] Change max number of party member (a clan skill?): see here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/search?utf8=%E2%9C%93&q=MAX_PARTY_MEMBERS with the line we want here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Server/SHO_GS/SHO_GS_LIB/GS_PARTY.CPP#L609 
 - [x] Temporary fix to update party level by 2 (6 player at lvl 1, 7 at lvl >=5)... This needs to be improved, see point above!
-- [ ] Add GM command to change party level
+- [x] Add GM command to change party level
 - [ ] Reduce zone where to click to enable the chat
 - [ ] Name change if a jewel is equipped? + bug "runit_in < num_runits" [zz_visible.cpp#1877]
 - [x] Get more time to drop (multiplied by 5)
@@ -60,7 +61,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Add new GM commandes for apparaisal items
 - [x] Improve debug rendering (Alt+d in GM mode)
 - [x] Change shortcut to switch 'visible name of drops' with only Atl+Gr (switch on AND off) + enable this option by default
-- [ ] When crafting, the overview of the item should show basic stats
+- [x] When crafting, the overview of the item should show basic stats
 - [x] When using apparaisal, it should continue until we right-click to cancel it
 - [x] Right-click unselect target, even if hold: this has to be fixed
 - [ ] HP fix
