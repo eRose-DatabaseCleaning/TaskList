@@ -22,6 +22,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] One should also recover MP (like it is done for HP) all the time, not only when using "sit"
 - [x] Add success rate when crafting (with update to show 100% if we have a success rate >=100%)
 - [ ] Add clan skill for: party level (bonus part) +6 production part + clan house
 - [ ] Add special lvl 35 skill: Arti==blue craft; Bourg==Party stockpiling ; Cleric==buff duration; Mage==summons don't loose health; Raider==Recover HP/MP when dodge (skill active only each XX seconds); Scout==bonus zuly (also for party); Knight==more focus by agro (especially when fighting someone). For example a auto-taunt every 10s you fight; Champ==if you don't have one piece of equipment it gives you a bonus/malus in def/atk (more atk, less def ^^)
