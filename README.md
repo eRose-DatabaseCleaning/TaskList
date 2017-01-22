@@ -22,6 +22,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Lvl 35 cleric passive skill implemented: double skill duration
+- [ ] When you Ctrl+Alt+Click on a drop, you drop it at distance, consuming 1000 stamina
 - [ ] One should also recover MP (like it is done for HP) all the time, not only when using "sit"
 - [x] Add success rate when crafting (with update to show 100% if we have a success rate >=100%)
 - [ ] Add clan skill for: party level (bonus part) +6 production part + clan house
