@@ -23,7 +23,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 ##Complete list of tasks
 ### Sources (newest to oldest)
 - [x] Lvl 35 cleric passive skill implemented: double skill duration
-- [ ] When you Ctrl+Alt+Click on a drop, you drop it at distance, consuming 1000 stamina
+- [ ] New skill to drop at distance for 1000 stamina
 - [ ] One should also recover MP (like it is done for HP) all the time, not only when using "sit"
 - [x] Add success rate when crafting (with update to show 100% if we have a success rate >=100%)
 - [ ] Add clan skill for: party level (bonus part) +6 production part + clan house
@@ -31,7 +31,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Add option to the launcher to set the initial position of the window
 - [x] Remove the camera that starts turning when mouse reaches the edge
 - [ ] Add a skill to tp to the clan house and a warp in the clan house to any zone (but have to unlock it first with specific quest for each zone (hard to get: money plus lot of power!)
-- [ ] continue action after some skills (ex: healing)
+- [ ] continue action after some skills (ex: healing) -- search for keyword "CMD_STOP" in visual studio
 - [ ] Make two chats: one big, one small that separates log and talks... This is maybe what is doing frarose (https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/it_mgr.cpp#L1186). You can find the chatbox here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Client/Interface/CChatBox.cpp
 - [x] Add a new shortcut to sit (Alt+Z)
 - [ ] When you look at a new equipment it shows what you have equiped at the moment to compare
