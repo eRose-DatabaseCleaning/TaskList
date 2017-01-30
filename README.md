@@ -22,6 +22,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [x] Add correct condition to basic skill + add new case in the "check skill conditation": if we have a bagpack or wings
 - [x] Lvl 35 cleric passive skill implemented: double skill duration
 - [ ] New skill to drop at distance for 1000 stamina
 - [ ] One should also recover MP (like it is done for HP) all the time, not only when using "sit"
