@@ -22,9 +22,12 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [ ] Add an launcher option with width and height
+- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; automatically put the window in the right position if one change the resolution from the launcher and not from the options menu
+- [ ] Give same cosmetic for basic skill and normal skill
 - [x] Add correct condition to basic skill + add new case in the "check skill conditation": if we have a bagpack or wings
 - [x] Lvl 35 cleric passive skill implemented: double skill duration
-- [ ] New skill to drop at distance for 1000 stamina
+- [x] New skill to drop at distance for 1000 stamina
 - [ ] One should also recover MP (like it is done for HP) all the time, not only when using "sit"
 - [x] Add success rate when crafting (with update to show 100% if we have a success rate >=100%)
 - [ ] Add clan skill for: party level (bonus part) +6 production part + clan house
