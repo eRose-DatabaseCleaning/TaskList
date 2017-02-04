@@ -10,20 +10,22 @@ https://guides.github.com/features/mastering-markdown/
 Some inspiration can also be found here: https://raw.githubusercontent.com/dev-osrose/osIROSE-new/master/README.md
 -->
 
+<!---
 ## Urgent task list
 |   Category   |   Description  |  Assigned to  |
 |     :---:    |     :---:      |     :---:     |
 | Sources - Client & Server       | MaxHP and MaxMP should be a variable sent in the packet from and to the server     | Numenor    |
 | Sources - Client     | HP fix - Computation is done from the Server side but also from Client side. We should make it match and make the server computation the priority      | Numenor      |
 | STB     | Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files. For example it works well with the Ruff AIP files. Should we put all AIP files from Ruff there then?       | Laurenzzo      |
+-->
 
 
 
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
-- [ ] Add an launcher option with width and height
-- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; automatically put the window in the right position if one change the resolution from the launcher and not from the options menu
+- [ ] Add a launcher option with width and height
+- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows.
 - [ ] Give same cosmetic for basic skill and normal skill
 - [x] Add correct condition to basic skill + add new case in the "check skill conditation": if we have a bagpack or wings
 - [x] Lvl 35 cleric passive skill implemented: double skill duration
