@@ -24,9 +24,9 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
-- [ ] Add a launcher option with width and height
-- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows.
-- [ ] Give same cosmetic for basic skill and normal skill
+- [x] Add a launcher option with width and height; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows. Correct default position of 2nd skill bar.
+- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS
+- [x] Give same cosmetic for basic skill and normal skill
 - [x] Add correct condition to basic skill + add new case in the "check skill conditation": if we have a bagpack or wings
 - [x] Lvl 35 cleric passive skill implemented: double skill duration
 - [x] New skill to drop at distance for 1000 stamina
