@@ -16,7 +16,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 |     :---:    |     :---:      |     :---:     |
 | Sources - Client & Server       | MaxHP and MaxMP should be a variable sent in the packet from and to the server     | Numenor    |
 | Sources - Client     | HP fix - Computation is done from the Server side but also from Client side. We should make it match and make the server computation the priority      | Numenor      |
-| STB     | Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files. For example it works well with the Ruff AIP files. Should we put all AIP files from Ruff there then?       | Laurenzzo      |
+| STB     | Bonefire (and summons in general) don't die when summoner is far away ->this has to be fixed in the AIP files. For example it works well with the Ruff AIP files. Should we put all AIP files from Ruff there then?       | Laurenzzo      |
 -->
 
 
