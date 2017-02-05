@@ -26,7 +26,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 ### Sources (newest to oldest)
 - [x] Windows are not resizable anymore by dragging the mouse at the edge of the window
 - [x] Add a launcher option with width and height; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows. Correct default position of 2nd skill bar.
-- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS
+- [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; customize the ui (show chat window? skill bar? etc). This should be done in a new tab in options. It should also be written in the .ini file
 - [x] Give same cosmetic for basic skill and normal skill
 - [x] Add correct condition to basic skill + add new case in the "check skill conditation": if we have a bagpack or wings
 - [x] Lvl 35 cleric passive skill implemented: double skill duration
@@ -49,7 +49,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Change max number of party member (a clan skill?): see here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/search?utf8=%E2%9C%93&q=MAX_PARTY_MEMBERS with the line we want here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/be45f82f8ef288602db7cb09e532170b7b2b504c/Server/SHO_GS/SHO_GS_LIB/GS_PARTY.CPP#L609 
 - [x] Temporary fix to update party level by 2 (6 player at lvl 1, 7 at lvl >=5)... This needs to be improved, see point above!
 - [x] Add GM command to change party level
-- [ ] Reduce zone where to click to enable the chat
+- [x] Reduce zone where to click to enable the chat
 - [ ] Name change if a jewel is equipped? + bug "runit_in < num_runits" [zz_visible.cpp#1877]
 - [x] Get more time to drop (multiplied by 5)
 - [ ] Enable moving a char with keyboard (but only the active window and while not in the chat)
