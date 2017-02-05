@@ -24,6 +24,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
+- [x] Windows are not resizable anymore by dragging the mouse at the edge of the window
 - [x] Add a launcher option with width and height; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows. Correct default position of 2nd skill bar.
 - [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS
 - [x] Give same cosmetic for basic skill and normal skill
@@ -59,7 +60,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [ ] Add an option to choose for constant or not rendering
 - [ ] Atfer implementation of auto-login add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
 - [x] Implement auto-login (Login step:OK; Server step:OK; Char step: new task above)
-- [ ] Prevent windows to be opened out of the screen when resolution changes
+- [x] Prevent windows to be opened out of the screen when resolution changes
 - [x] New shortcut for skill bars "1 2 3..." for normal bar and F1 F2 etc for second bar. If in a dialog, then use Alt+1 2 3 instead (F1 F2 etc will always work). To switch bar: Ctrl+1 2 3 4 for the normal bar, and F9 F10 F11 F12 for the other one.
 - [x] Fix the memory for skill bars. For the moment, only page 1 of bar 1 is saved ! The rest is not and you have to put your skill by hand all the time...
 - [x] Not correct skins for skill bar (number doesn't show current page of the bar, shortcut are not correctly pictured) (see xml files and create and setID !)
