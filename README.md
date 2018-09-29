@@ -24,7 +24,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
-- [ ] When a character is disconnected, its summons don't die. When the character logs back, if he's trying to buff/heal its old summon, then server crashes.
+- [ ] When a character is disconnected, its summons don't die. When the character logs back, if he's trying to do a healing it will not heal its old summon. But, if in a party, then a party buff will crash the game
 - [x] Windows are not resizable anymore by dragging the mouse at the edge of the window
 - [x] Add a launcher option with width and height; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows. Correct default position of 2nd skill bar.
 - [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; customize the ui (show chat window? skill bar? etc). This should be done in a new tab in options. It should also be written in the .ini file
@@ -95,5 +95,5 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Fix quest with engagement ring that you cannot complete after lvl 22
 - [x] Add spero's wooden chest and associated quest (we decided not to add it :-) )
 - [ ] Remove unwanted messages (like the "promotion sale for the warehouse" or the messahe after the tutorial saying you just learned two skills... that you already have)
-- [ ] Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files
-- [ ] When a npc speaks in the chat, the name is wrong (it takes the second column of the STB files)
+- [x] Bonefire (and summons in general) don't die when summoner is far away -->this has to be fixed in the AIP files
+- [x] When a npc speaks in the chat, the name is wrong (it takes the second column of the STB files)
