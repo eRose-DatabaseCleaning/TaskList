@@ -24,7 +24,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
-- [ ] When a character is disconnected, its summons don't die. When the character logs back, if he's trying to do a healing it will not heal its old summon. But, if in a party, then a party buff will crash the game
+- [ ] When a character is disconnected, its summons don't die. When the character logs back, if he's trying to do a healing it will not heal its old summon. But, if in a party, then a party buff will crash the game. The function to kill summons is here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/1ec3caf7f4a47baec7e0cf20ba32d4c3d4b1f6db/Client/CObjCHAR.cpp#L1708 I guess I just have to find where disconnection handling is done and add this there.
 - [x] Windows are not resizable anymore by dragging the mouse at the edge of the window
 - [x] Add a launcher option with width and height; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows. Correct default position of 2nd skill bar.
 - [ ] Add options to: constantly render or not the screen; change between 30 and 60FPS; customize the ui (show chat window? skill bar? etc). This should be done in a new tab in options. It should also be written in the .ini file
