@@ -24,7 +24,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 ##Complete list of tasks
 ### Sources (newest to oldest)
-- [ ] Stop rendering when a tab is minimized.
+- [x] Stop rendering when a tab is minimized.
 - [ ] When a character is disconnected, its summons don't die. When the character logs back, if he's trying to do a healing it will not heal its old summon. But, if in a party, then a party buff will crash the game. The function to kill summons is here: https://github.com/eRose-DatabaseCleaning/Sources-non-evo/blob/1ec3caf7f4a47baec7e0cf20ba32d4c3d4b1f6db/Client/CObjCHAR.cpp#L1708 I guess I just have to find where disconnection handling is done and add this there. Apparently, this happens also just when firebones are supposed to disappear... To check if it happens again
 - [x] Windows are not resizable anymore by dragging the mouse at the edge of the window
 - [x] Add a launcher option with width and height; automatically put the windows in the right position if one change the resolution from the launcher and not from the options menu; if change resolution from launcher, update the option dialog accordingly (and so come back to this after full screen); if same res than in the .ini file, don't change position of windows. If different, please reset the position of the windows. Correct default position of 2nd skill bar.
@@ -52,7 +52,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Temporary fix to update party level by 2 (6 player at lvl 1, 7 at lvl >=5)... This needs to be improved, see point above!
 - [x] Add GM command to change party level
 - [x] Reduce zone where to click to enable the chat
-- [ ] Name change if a jewel is equipped? + bug "runit_in < num_runits" [zz_visible.cpp#1877]
+- [x] Name change if a jewel is equipped? + bug "runit_in < num_runits" [zz_visible.cpp#1877]
 - [x] Get more time to drop (multiplied by 5)
 - [ ] Enable moving a char with keyboard (but only the active window and while not in the chat)
 - [ ] Change drop formula to be more intuitive (see work of Laurenzzo)
@@ -60,7 +60,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Change the right-click on ally to a Ctrl+right click to see some info.
 - [ ] Make the blue items just a stat like the refine stat. For the drops, add a new column inside the STB to say if this monster can drop blue items or not. ---> Next step is the craft of such item (new skill like refine)
 - [ ] Add an option to choose for constant or not rendering
-- [ ] Atfer implementation of auto-login add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
+- [x] Atfer implementation of auto-login add automatic option to launch several game with password and automatically open the windows with the right size to be splitted on the screen
 - [x] Implement auto-login (Login step:OK; Server step:OK; Char step: new task above)
 - [x] Prevent windows to be opened out of the screen when resolution changes
 - [x] New shortcut for skill bars "1 2 3..." for normal bar and F1 F2 etc for second bar. If in a dialog, then use Alt+1 2 3 instead (F1 F2 etc will always work). To switch bar: Ctrl+1 2 3 4 for the normal bar, and F9 F10 F11 F12 for the other one.
@@ -86,6 +86,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 - [x] Remove isTaiwan and fix calculation to be a iRose like server
 
 ### STB (newest to oldest)
+- [ ] Fix Forgotten Temple B2 -->Fix quest so the map works
+- [x] Add Mt. Eruca
 - [ ] Implement new quests for special skill at lvl 40
 - [ ] About the level 30 job quest: Soldier==very long (have to kill aquas for hours with first hit). It's nice won't change it;Muse==easy and super nice reward!; Dealer==have to be smart but easy, let it that way; Hawker==impossible for the 2 first level. Need help for the last one. Have to change it, like 2 captains in 10 minutes. Or better-->do a speed challenge NOT depending on the spawn rate. --->So for this part, redo the quest for hawker.
 - [x] Fix 5-color-scales (you need 10, not 5!) in episode quest
