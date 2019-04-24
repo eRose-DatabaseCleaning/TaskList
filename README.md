@@ -22,7 +22,8 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 
 
 
-##Complete list of tasks
+## Complete list of tasks
+
 ### Sources (newest to oldest)
 - [ ] Create a party skill where the level, stats, gear of party members is scaled to the lowest member of the party. Allow to give its EXP while in the party to the lowest level character.
 - [x] Fix chat bug (crash if more than 126 characters written)
