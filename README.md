@@ -25,6 +25,7 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 ## Complete list of tasks
 
 ### Sources (newest to oldest)
+- [x] Fix a bug in the GM commands where the "add sp" command was touching bonus point
 - [ ] Create a party skill where the level, stats, gear of party members is scaled to the lowest member of the party. Allow to give its EXP while in the party to the lowest level character.
 - [x] Fix chat bug (crash if more than 126 characters written)
 - [x] Improved description of /item and /mon, like done for /mm (showing list of available options)
