@@ -25,9 +25,12 @@ Some inspiration can also be found here: https://raw.githubusercontent.com/dev-o
 ## Complete list of tasks
 
 ### Sources (newest to oldest)
+- [ ] Atk-speed buff from dealer doesn't increase atk-speed stats. Check other passive too !
+- [ ] Make HP correct in party (when soldier use leech skill, it does not update for the other party members)
+- [ ] Make stats, HP and MP computed by server only and sent to the client
 - [x] Add new basic skills to character creation
 - [x] Fix a bug in the GM commands where the "add sp" command was touching bonus point
-- [ ] Create a party skill where the level, stats, gear of party members is scaled to the lowest member of the party. Allow to give its EXP while in the party to the lowest level character.
+- [x] Create a party skill where the level, stats, gear of party members is scaled to the lowest member of the party. Allow to give its EXP while in the party to the lowest level character.
 - [x] Fix chat bug (crash if more than 126 characters written)
 - [x] Improved description of /item and /mon, like done for /mm (showing list of available options)
 - [x] Stop rendering when a tab is minimized.
